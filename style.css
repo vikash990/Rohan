@@ -1,0 +1,19 @@
+#first_div{
+    background-color: rgb(129, 94, 70);
+}
+#rohan{
+    margin-left:500px;
+}
+#btn{
+    background-color: green;
+    height: 40px;
+    width: 120px;
+    color:white;
+    margin-left:1180px;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: black;
+    color:green;
+    border-radius: 20px;
+}

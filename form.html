@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>FORM</title>
+    <style>
+        #mainForm{
+            background-color: brown;
+            color: white;
+            padding: 40px;
+            margin-left:400px;
+            margin-top:100px;
+            width: 400px;
+            font:bold;
+            font-style: italic;
+
+        }
+        input{
+            width: 200px;
+            height: 20px;
+            color:black;
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/data.php" id="mainForm">
+        <label>User name:</label>
+        <input type="text" placeholder="username" required /><br><br>
+        <label>Email Id:</label>
+        <input type="email" placeholder="Email" required /><br><br>
+        <label>User name:</label>
+        <input type="number" placeholder="Mobile number" max-length="10" required /><br><br>
+        <label> Password:</label>
+        <input type="password" placeholder="password" required /><br><br>
+        <label>Select Your gender:</label><br><br>
+        <input type= "radio" id="1" name="gender" value="male"><label>Male</label><br><br>
+        <input type= "radio" id="1" name="gender" value="female"><label>Female</label><br><br>
+        <input type= "radio" id="1" name="gender" value="other"><label>Other</label><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
